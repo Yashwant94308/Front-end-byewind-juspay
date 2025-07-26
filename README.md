@@ -14,7 +14,7 @@ This guide will help you install and run the project locally with all required d
 
 ### 🔗 Hosted URL:
 
-- _Not deployed yet. Coming soon!_
+- [Deployed URL - "https://byewind-juspay-yashwant.netlify.app/"](https://byewind-juspay-yashwant.netlify.app/)
 
 ---
 
