@@ -9,10 +9,10 @@ In this DASHBOARD and ORDER LIST is there.
 
 ---
 
-## Project Setup: React + Vite + Tailwind + Framer Motion
-
-This guide will help you install and run the project locally with all required dependencies and tools.
-
+## Project Tech-Stack: 
+	**1. React**
+	**2. Vite **
+	**3. Tailwind**
 ---
 
 ### 🔗 Hosted URL:
@@ -42,11 +42,11 @@ Ensure you have the following installed:
 
 ## Installation Steps
 
-### 1. Clone the Repository
+### 1. Repo - Cloning
 
 ```bash
-git clone https://github.com/<user>/byewind-dashboard.git
-cd byewind-dashboard
+[git clone https://github.com/Yashwant94308/Front-end-byewind-juspay.git](https://github.com/Yashwant94308/Front-end-byewind-juspay)
+cd Front-end-byewind-juspay
 ```
 
 ### 2. Install Dependencies
@@ -57,81 +57,30 @@ Run the following command to install all necessary packages:
 npm install
 ```
 
-Alternatively, you can use Yarn:
+### 3. Run the Server
 
-```bash
-yarn install
-```
-
-### 3. Run the Development Server
-
-To start the Vite development server with hot module replacement (HMR), use the following command:
+To start the Vite development server use the following command:
 
 ```bash
 npm run dev
 ```
 
-or with Yarn:
+The server should start at `http://localhost:5173`.
 
-```bash
-yarn dev
-```
+### 4. Project build
 
-The development server should start at `http://localhost:5173`.
-
-### 4. Build the Project
-
-To build the project for production, run:
+To build the project, run:
 
 ```bash
 npm run build
 ```
-
-or with Yarn:
-
-```bash
-yarn build
-```
-
-### 5. Preview the Production Build
-
-To preview the production build, you can use:
-
-```bash
-npm run preview
-```
-
-or with Yarn:
-
-```bash
-yarn preview
-```
-
 ## Tailwind CSS Integration
 
-This project includes [Tailwind CSS](https://tailwindcss.com/) for styling. It is already configured with `postcss` and `autoprefixer`. To make changes to the design, modify the `tailwind.config.js` file.
+This project leverages [Tailwind CSS](https://tailwindcss.com/) to handle styling in a highly efficient and scalable way. It comes pre-configured with `postcss` and `autoprefixer` to ensure compatibility across browsers.
 
-Tailwind is applied to all components using utility-first CSS, allowing for rapid UI development.
+To customize the design system, simply update the tailwind.config.js file.
 
-## Framer Motion
-
-Framer Motion is used for animations. You can easily add animations to your components by importing `motion` from `framer-motion` and wrapping your components.
-
-Example:
-
-```jsx
-import { motion } from "framer-motion";
-
-const Component = () => (
-	<motion.div
-		initial={{ opacity: 0 }}
-		animate={{ opacity: 1 }}
-		transition={{ duration: 1 }}
-	>
-		Hello, World!
-	</motion.div>
-);
-```
+By using Tailwind’s utility-first approach, the project enables rapid and consistent UI development across all components.
 
 ## ESLint Configuration
 
@@ -146,21 +95,3 @@ The ESLint configuration is located in `.eslintrc` and helps maintain code quali
 ```bash
 npm run lint
 ```
-
-or with Yarn:
-
-```bash
-yarn lint
-```
-
-## Available Scripts
-
-- `npm run dev`: Starts the development server.
-- `npm run build`: Builds the project for production.
-- `npm run preview`: Previews the production build.
-- `npm run lint`: Lints the codebase with ESLint.
-
-## Additional Configuration
-
-- **Vite Plugin React**: For fast refresh and optimized builds using Vite.
-- **PostCSS and Autoprefixer**: Configured for cross-browser compatibility.
